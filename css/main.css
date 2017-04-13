@@ -1,0 +1,47 @@
+/*公共样式*/
+body{
+  font-family: caudex,serif;
+}
+p {
+  margin: 0;
+  color: #3C5070;
+}
+/*板块区域*/
+.container .row .con  {
+  margin-top: 5px;
+}
+.container .row .con .con-left {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D4D4D4;
+}
+.container .row .con .con-left h2{
+  color: #595959;
+}
+.container .row .con .con-right{
+  padding-top: 40px;
+  font-size: 18px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid  #D4D4D4
+}
+.container .row .con .con-right .top,
+.container .row .con .con-right .cen {
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .container .row .con .con-left {
+    padding-bottom: 4px;
+  }
+  .container .row .con .con-left h2{
+    font-size: 12px;
+  }
+  .container .row .con .con-right{
+    padding-top: 20px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  #D4D4D4
+  }
+  .container .row .con .con-right .top,
+  .container .row .con .con-right .cen {
+    margin-bottom: 8px;
+  }
+}
